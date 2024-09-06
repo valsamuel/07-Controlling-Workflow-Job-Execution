@@ -14,8 +14,6 @@ jobs:
           - node-version: 14
             operating-system: windows-latest
     runs-on: ${{ matrix.operating-system }}
-  lint:
-    runs-on: ubuntu-latest
     steps:
       - name: Get code
         uses: actions/checkout@v4
